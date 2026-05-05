@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esthetician Mentorship | Lucid Skin + Beauty Boutique | Raleigh, NC</title>
+  <meta name="description" content="The Lucid Mentorship Program — 1-on-1 training for licensed estheticians. Hands-on studio sessions, customized curriculum, CEUs, and Google marketing consultation. Only 3 spots per quarter.">
+  <link rel="canonical" href="https://www.lucidskinbeautyboutique.com/mentorship">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50:'#FAF6F2', 100:'#F2E8DE', 200:'#E5D0BC', 300:'#D4B098', 400:'#C49278', 500:'#B87A5E', 600:'#9A6248', 700:'#7D4E38', 800:'#5E3A28', 900:'#3D2518' }
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'DM Sans', system-ui, sans-serif; }
+    .font-display { font-family: 'Cormorant Garamond', Georgia, serif; }
+    .link-hover { position: relative; }
+    .link-hover::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 1px; background: currentColor; transition: width 0.25s ease; }
+    .link-hover:hover::after { width: 100%; }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="flex items-center justify-between py-4">
+        <a href="index.html" class="flex flex-col leading-none cursor-pointer">
+          <span class="font-display text-xl font-normal tracking-[0.15em] text-stone-900 uppercase">Lucid Skin</span>
+          <span class="text-[10px] tracking-[0.25em] text-brand-600 font-light uppercase mt-0.5">Beauty Boutique</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-sm tracking-wide text-stone-700 hover:text-brand-600 transition-colors duration-200 link-hover">Home</a>
+          <a href="about.html" class="text-sm tracking-wide text-stone-700 hover:text-brand-600 transition-colors duration-200 link-hover">About</a>
+          <a href="services.html" class="text-sm tracking-wide text-stone-700 hover:text-brand-600 transition-colors duration-200 link-hover">Services</a>
+          <a href="mentorship.html" class="text-sm tracking-wide text-brand-600 transition-colors duration-200 link-hover">Mentorship</a>
+          <a href="faq.html" class="text-sm tracking-wide text-stone-700 hover:text-brand-600 transition-colors duration-200 link-hover">FAQ</a>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="https://book.squareup.com/appointments/zsskylc1g4vb2l/location/E0AS166A6F5DD/services" target="_blank" rel="noopener" class="hidden md:inline-flex items-center px-5 py-2 text-sm font-medium tracking-wide text-white bg-brand-600 hover:bg-brand-700 transition-colors duration-200 cursor-pointer">Book Now</a>
+          <button id="menu-toggle" class="md:hidden p-2 text-stone-700 cursor-pointer" aria-label="Open menu" aria-expanded="false">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-stone-100">
+      <div class="px-6 py-6 flex flex-col gap-5">
+        <a href="index.html" class="text-sm text-stone-700">Home</a>
+        <a href="about.html" class="text-sm text-stone-700">About</a>
+        <a href="services.html" class="text-sm text-stone-700">Services</a>
+        <a href="mentorship.html" class="text-sm text-brand-600">Mentorship</a>
+        <a href="faq.html" class="text-sm text-stone-700">FAQ</a>
+        <a href="https://book.squareup.com/appointments/zsskylc1g4vb2l/location/E0AS166A6F5DD/services" target="_blank" rel="noopener" class="inline-flex justify-center items-center px-5 py-3 text-sm font-medium text-white bg-brand-600 cursor-pointer">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative pt-32 pb-24 bg-stone-900 overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://placehold.co/1920x800/1c1a17/1c1a17" alt="Lucid Skin mentorship training environment" class="w-full h-full object-cover opacity-40">
+      <div class="absolute inset-0 bg-gradient-to-r from-stone-950/90 to-stone-950/40"></div>
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+      <p class="text-brand-400 text-[10px] tracking-[0.35em] uppercase mb-4">For Licensed Estheticians</p>
+      <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight max-w-2xl mb-6">
+        The Lucid<br>
+        <em class="not-italic text-brand-300">Mentorship Program</em>
+      </h1>
+      <p class="text-stone-300 text-lg font-light leading-relaxed max-w-xl mb-10">
+        A 1-on-1 mentorship for licensed estheticians who are ready to close knowledge gaps, elevate their practice, and build a career they&rsquo;re proud of.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="https://book.squareup.com/appointments/zsskylc1g4vb2l/location/E0AS166A6F5DD/services" target="_blank" rel="noopener"
+           class="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide text-stone-900 bg-brand-400 hover:bg-brand-300 transition-colors duration-200 cursor-pointer">
+          Apply for a Spot
+        </a>
+        <a href="#details"
+           class="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide text-white border border-white/30 hover:bg-white/10 transition-colors duration-200 cursor-pointer">
+          Program Details
+          <svg class="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="py-12 bg-stone-800">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>
+          <p class="font-display text-4xl text-brand-400 font-light">$2,300</p>
+          <p class="text-stone-400 text-sm mt-1">Investment per participant</p>
+        </div>
+        <div>
+          <p class="font-display text-4xl text-brand-400 font-light">8h</p>
+          <p class="text-stone-400 text-sm mt-1">Studio training sessions</p>
+        </div>
+        <div>
+          <p class="font-display text-4xl text-brand-400 font-light">3</p>
+          <p class="text-stone-400 text-sm mt-1">Spots per quarter</p>
+        </div>
+        <div>
+          <p class="font-display text-4xl text-brand-400 font-light">1</p>
+          <p class="text-stone-400 text-sm mt-1">Shadow day included</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who It's For -->
+  <section id="details" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <p class="text-brand-600 text-[10px] tracking-[0.35em] uppercase mb-4">Who This Is For</p>
+          <h2 class="font-display text-4xl font-light text-stone-900 mb-6 leading-tight">
+            Built for Estheticians<br>Who Want More
+          </h2>
+          <p class="text-stone-600 leading-relaxed mb-6 text-[15px]">
+            Many licensed estheticians graduate with the fundamentals — but the gap between school and a thriving professional practice is wide. The Lucid Mentorship Program was created to close that gap with real, hands-on guidance from a Master Esthetician with 12 years of field experience.
+          </p>
+          <p class="text-stone-600 leading-relaxed mb-8 text-[15px]">
+            This isn&rsquo;t a course or a workshop. It&rsquo;s a customized, 1-on-1 learning relationship designed around your specific gaps, goals, and growth areas.
+          </p>
+          <h3 class="text-sm font-medium text-stone-900 mb-4 tracking-wide">This Program Is For You If...</h3>
+          <ul class="space-y-2.5">
+            <li class="flex items-start gap-3 text-sm text-stone-600">
+              <svg class="w-4 h-4 mt-0.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              You&rsquo;re a licensed esthetician with gaps in your clinical training
+            </li>
+            <li class="flex items-start gap-3 text-sm text-stone-600">
+              <svg class="w-4 h-4 mt-0.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              You&rsquo;re a student approaching graduation who wants a head start
+            </li>
+            <li class="flex items-start gap-3 text-sm text-stone-600">
+              <svg class="w-4 h-4 mt-0.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              You want mentorship from someone who has built a real business
+            </li>
+            <li class="flex items-start gap-3 text-sm text-stone-600">
+              <svg class="w-4 h-4 mt-0.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              You value practical knowledge over theoretical instruction
+            </li>
+            <li class="flex items-start gap-3 text-sm text-stone-600">
+              <svg class="w-4 h-4 mt-0.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              You&rsquo;re committed to building a successful, sustainable esthetics career
+            </li>
+          </ul>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/5] overflow-hidden">
+            <img src="https://placehold.co/600x750/f0e8df/c49278?text=Mentorship+Training" alt="Hands-on mentorship training at Lucid Skin" class="w-full h-full object-cover">
+          </div>
+          <div class="absolute -bottom-5 -right-5 w-28 h-28 bg-brand-100 -z-10"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Included -->
+  <section class="py-24 bg-stone-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <p class="text-brand-600 text-[10px] tracking-[0.35em] uppercase mb-4">Program Details</p>
+        <h2 class="font-display text-4xl font-light text-stone-900">What&rsquo;s Included</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-8 hover:shadow-md transition-shadow duration-200">
+          <div class="w-10 h-10 bg-brand-100 flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
+          </div>
+          <h3 class="text-base font-medium text-stone-900 mb-2">Custom Curriculum &amp; Manual</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">A tailored learning plan built around your specific knowledge gaps and career goals. You also receive a physical manual to keep as an ongoing reference.</p>
+        </div>
+        <div class="bg-white p-8 hover:shadow-md transition-shadow duration-200">
+          <div class="w-10 h-10 bg-brand-100 flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
+          </div>
+          <h3 class="text-base font-medium text-stone-900 mb-2">Two 4-Hour Studio Sessions</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">Hands-on training in the Lucid Skin studio. Real clients, real techniques, real feedback — the experience you can&rsquo;t get from a classroom.</p>
+        </div>
+        <div class="bg-white p-8 hover:shadow-md transition-shadow duration-200">
+          <div class="w-10 h-10 bg-brand-100 flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg>
+          </div>
+          <h3 class="text-base font-medium text-stone-900 mb-2">One Shadow Day</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">Spend a full day shadowing Santana through real client sessions — observing workflow, client communication, and professional practice in action.</p>
+        </div>
+        <div class="bg-white p-8 hover:shadow-md transition-shadow duration-200">
+          <div class="w-10 h-10 bg-brand-100 flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 3.741-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" /></svg>
+          </div>
+          <h3 class="text-base font-medium text-stone-900 mb-2">Continuing Education Units (CEU)</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">Earn continuing education credits toward your ongoing licensure requirements — value beyond the mentorship itself.</p>
+        </div>
+        <div class="bg-white p-8 hover:shadow-md transition-shadow duration-200">
+          <div class="w-10 h-10 bg-brand-100 flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
+          </div>
+          <h3 class="text-base font-medium text-stone-900 mb-2">SEO Consultation</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">A Google-certified SEO consultation to help you get found online — included because building a clientele requires more than great technique.</p>
+        </div>
+        <div class="bg-white p-8 hover:shadow-md transition-shadow duration-200">
+          <div class="w-10 h-10 bg-brand-100 flex items-center justify-center mb-5">
+            <svg class="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" /></svg>
+          </div>
+          <h3 class="text-base font-medium text-stone-900 mb-2">Completion Certificate</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">A certificate of completion from Lucid Skin + Beauty Boutique that you can display in your studio and add to your professional portfolio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment + CTA -->
+  <section class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-brand-600 text-[10px] tracking-[0.35em] uppercase mb-4">Investment</p>
+          <h2 class="font-display text-4xl font-light text-stone-900 mb-5 leading-tight">$2,300<br><span class="text-stone-400 text-2xl">per participant</span></h2>
+          <p class="text-stone-600 text-[15px] leading-relaxed mb-5">
+            The Lucid Mentorship Program accepts <strong class="text-stone-800">only 3 mentees per quarter</strong> to ensure every participant receives Santana&rsquo;s full attention and a genuinely personalized experience.
+          </p>
+          <p class="text-stone-600 text-sm leading-relaxed mb-8">
+            Enrollment begins with a consultation to discuss your background, goals, and fit. Spots are allocated on a first-come, first-served basis after your consultation is complete.
+          </p>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              <span class="text-sm text-stone-600">Custom curriculum &amp; printed manual</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              <span class="text-sm text-stone-600">Two 4-hour hands-on studio sessions</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              <span class="text-sm text-stone-600">One full shadow day</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              <span class="text-sm text-stone-600">Continuing education units (CEU)</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              <span class="text-sm text-stone-600">Google-certified SEO consultation</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+              <span class="text-sm text-stone-600">Completion certificate</span>
+            </div>
+          </div>
+        </div>
+        <div class="bg-stone-900 p-10">
+          <h3 class="font-display text-2xl font-light text-white mb-2">Ready to Apply?</h3>
+          <p class="text-stone-400 text-sm leading-relaxed mb-6">Start with a consultation to discuss your background and goals. We&rsquo;ll confirm your fit and schedule your spot.</p>
+          <a href="https://book.squareup.com/appointments/zsskylc1g4vb2l/location/E0AS166A6F5DD/services" target="_blank" rel="noopener"
+             class="inline-flex w-full items-center justify-center px-8 py-4 text-sm font-medium tracking-wide text-stone-900 bg-brand-400 hover:bg-brand-300 transition-colors duration-200 cursor-pointer mb-4">
+            Schedule a Consultation
+          </a>
+          <p class="text-stone-500 text-xs text-center">Limited to 3 mentees per quarter</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-stone-950 pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-stone-800">
+        <div class="md:col-span-2">
+          <a href="index.html" class="inline-flex flex-col leading-none mb-4 cursor-pointer">
+            <span class="font-display text-lg tracking-[0.15em] text-white uppercase">Lucid Skin</span>
+            <span class="text-[10px] tracking-[0.25em] text-brand-400 font-light uppercase mt-0.5">Beauty Boutique</span>
+          </a>
+          <p class="text-stone-500 text-sm leading-relaxed max-w-xs mt-4">Expert, personalized skincare in Raleigh, NC.</p>
+          <div class="flex gap-4 mt-6">
+            <a href="#" class="text-stone-500 hover:text-brand-400 transition-colors duration-200 cursor-pointer" aria-label="Instagram"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+            <a href="#" class="text-stone-500 hover:text-brand-400 transition-colors duration-200 cursor-pointer" aria-label="Facebook"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+            <a href="#" class="text-stone-500 hover:text-brand-400 transition-colors duration-200 cursor-pointer" aria-label="TikTok"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-white text-xs font-medium tracking-[0.15em] uppercase mb-5">Navigate</h4>
+          <ul class="space-y-3">
+            <li><a href="index.html" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">Home</a></li>
+            <li><a href="about.html" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">About</a></li>
+            <li><a href="services.html" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">Services</a></li>
+            <li><a href="mentorship.html" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">Mentorship</a></li>
+            <li><a href="faq.html" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white text-xs font-medium tracking-[0.15em] uppercase mb-5">Book &amp; Contact</h4>
+          <ul class="space-y-3">
+            <li><a href="https://book.squareup.com/appointments/zsskylc1g4vb2l/location/E0AS166A6F5DD/services" target="_blank" rel="noopener" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">Book Appointment</a></li>
+            <li><a href="contact.html" class="text-stone-500 text-sm hover:text-brand-400 transition-colors cursor-pointer">Contact Us</a></li>
+            <li><span class="text-stone-500 text-sm">Raleigh, NC</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-stone-600 text-xs">&copy; 2025 Lucid Skin + Beauty Boutique. All rights reserved. Raleigh, NC.</p>
+        <p class="text-stone-600 text-xs">ASCP Member &middot; Licensed Master Esthetician</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuToggle.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      menuToggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+  </script>
+</body>
+</html>
