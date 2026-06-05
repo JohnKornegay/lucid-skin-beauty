@@ -1,0 +1,31 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-1",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/services-2",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/services-2-1",
+      "destination": "/mentorship",
+      "permanent": true
+    },
+    {
+      "source": "/faqs-3-2",
+      "destination": "/faq",
+      "permanent": true
+    }
+  ]
+}
