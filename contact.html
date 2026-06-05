@@ -183,7 +183,13 @@
           <h2 class="font-display text-3xl font-light text-stone-900 mb-3">Send Us a Message</h2>
           <p class="text-stone-500 text-sm mb-8">Have a question before booking? Fill out the form below and we&rsquo;ll get back to you shortly.</p>
 
-          <form action="#" method="POST" class="space-y-5" novalidate>
+          <form action="https://api.web3forms.com/submit" method="POST" class="space-y-5" id="contact-form">
+            <input type="hidden" name="access_key" value="ee12df30-e3e7-4fd9-8c63-db9b8046be81">
+            <input type="hidden" name="subject" value="New Contact Form Submission — Lucid Skin Beauty Boutique">
+            <input type="hidden" name="from_name" value="Lucid Skin Website">
+            <input type="hidden" name="redirect" value="https://www.lucidskinbeautyboutique.com/contact?success=true">
+            <!-- Honeypot spam protection -->
+            <input type="checkbox" name="botcheck" style="display:none">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <label for="first-name" class="block text-xs tracking-wide text-stone-700 font-medium mb-1.5">First Name <span class="text-brand-500">*</span></label>
@@ -246,6 +252,19 @@
 
             <p class="text-xs text-stone-400 text-center">We typically respond within 1 business day.</p>
           </form>
+
+          <!-- Success message (shown after redirect) -->
+          <div id="success-message" class="hidden mt-6 p-6 bg-brand-50 border border-brand-200 text-center">
+            <p class="text-brand-700 font-medium text-sm mb-1">Message sent!</p>
+            <p class="text-stone-500 text-xs">Thank you for reaching out. We'll be in touch within 1 business day.</p>
+          </div>
+
+          <script>
+            if (window.location.search.includes('success=true')) {
+              document.getElementById('contact-form').style.display = 'none';
+              document.getElementById('success-message').classList.remove('hidden');
+            }
+          </script>
         </div>
 
       </div>
